@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>800</title>
+	
+
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/sub.css" rel="stylesheet">
+
+
+	<style>
+
+		#sub {width:1280px; height:1500px; margin:0 auto; background-color:cyan; padding:30px; color: blue;}
+
+
+
+		#submenu {width:100%; height:50px; background-color:skyblue;}
+
+		#submenu ul {font-size:13px; color: gray;}
+
+		#submenu ul li {float:right; padding: 5px; }
+
+		#submenu li a {text-decoration:none; color:#000;}
+
+		#submenu li a:hover {color:#666;}
+
+
+
+
+
+		#bestbest {width:100%px; height:1000px; background-color:purple; position:relative;}
+
+
+/*이미지*/
+
+
+       #bestimg {width:600px; height:600px; background-color:blue; }
+       #bestimg > a > img {width: 600px; height:600px;}
+
+       .after {width: 605px; height:150px; float: left; background-color: beige; top: 900px;}
+       .notbad1 {width:150px; height: 150px; background-color:green; padding: 2px; float: left;}
+       .notbad1 > a > img {width: 100%; height: 100%;} 
+
+
+
+
+       #top {width:600px; height:900px; background-color:yellowgreen; position: absolute ; top: 0; right: 0; padding:20px;}
+       #besttext1 {width:595px; height:550px; background-color:red; position: absolute ; top: 0; right: 0; padding:20px; }
+
+       #select {width: 300px; ; padding:5px;}
+
+       .bt1 {width: 500px; height: 35px;}
+
+       #button {width:600px; height: 120px; background-color: green; float: left; position:absolute; top:525px; right:0px; }
+
+       #naver {width:380px; height: 80px; background-color: yellowgreen; float: left; position:absolute; top:650px; right:0px;}
+
+       #naver > #bu {background-color:red; margin:10px; ;width:90px; height: 50px; float: left;}
+       #naver > #bu > img {width:100%; height: 100%;}
+       #naver > #bu1 {background-color:#00c73c; border:0; margin:10px; padding: 10px 40px; float: left;}
+       #naver > #bu2 {background-color:white; color:#00c73c; border:0; margin:10px; padding: 15px; float: left; border: 1px solid #666;}
+
+       
+
+
+       .review {width:200px; height: 30px; background-color: gold; float: left;}
+
+       .snsbox {width:200px; height: 40px; background-color: green; float: left;}
+       .snsbox > a > img {width: 30px; height: 30px;}
+       .snsbox > p {margin: 0; color: black;}
+
+
+
+
+
+
+
+
+      .table1 {width:100%; border-top:1px solid #e9e9e9; font-size:13px;border-bottom:1px solid #e9e9e9; color: #666; background-color: beige;}
+
+      .table1  > td { padding:15px; margin:20px; width:35px; margin: 5px;} 
+      .table1 > td:first-child {width:100px; }
+      #besttext1 > h3 {padding: 6px; margin:10px; }
+      #besttext1 > h5 {padding:6px; margin:10px; color: #666;}
+      #besttext1 > p {padding: 6px; margin: 10px; font-size: 13px; color: #666;}
+      #besttext1 > span {margin: 10px; float: right; color: #666;}
+      #besttext1> button {margin: 10px;}
+
+      .table1 > td:first-child {width:100px; }
+
+      .bt1 {background-color: yellow;} 
+
+
+
+
+
+
+       #button > button { font-size:14px; ;margin:3px; cursor:pointer;}
+       #button > button > img {width: 20px; height: 20px; margin: 0 auto;}
+
+       #button > button:first-child {background-color:gray; padding:10px 50px; color:#fff; border:none; margin:10px;}
+
+       #button > button:nth-child(2) {background-color:#eee; padding:10px 50px; color:gray; border:none; margin: 10px; }
+
+       #button > button:nth-child(3) {background-color:#eee; padding:10px 50px; color:gray; border:none; margin: 10px; }
+
+       #button > button:nth-child(4) {background-color:#fce41d; padding: 10px 185px; color:black; border: none; text-align: center; margin: 10px}
+
+       #button > button:nth-child(4):hover {opacity: 0.8;}
+
+       .guest {width:600px; height: 200px; background-color: pink; float: left; position: absolute; top:720px; right: 0px; }
+
+
+
+
+
+</style>
+
+</head>
+
+
+
+
+
+<body>
+
+
+	<!--header-->
+
+	<header>
+
+		<div class="login">
+
+			<ul>
+
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">장바구니</a></li>
+				<li>|</li>
+				<li><a href="#"><b>마이페이지</b></a></li>
+				<li>|</li>
+				<li><a href="#"><b>커뮤니티</b></a></li>
+				<li>|</li>
+				<li><a href="#">구매후기</a></li>
+				<li>|</li>
+				<li><a href="#">문의하기</a></li>
+			</ul>
+		</div>
+
+		<div class="icon">
+			<div class="sns">
+
+
+
+				<a href="#"><img src="img/fe.png" alt="페이스북아이콘"></a>
+
+				<a href="#"><img src="img/in.png" alt="인스타아이콘"></a>
+
+				<a href="#"><img src="img/ca.png" alt="공식카페아이콘"></a>
+
+				<a href="#"><img src="img/tw.png" alt="트위터아이콘"></a>
+
+				<a href="#"><img src="img/uv.png" alt="유튜브아이콘"></a>
+
+			</div>
+
+			<div class="search">
+				<form action="/action_page.php">
+					<input type="text" name="search">
+					<button><img src="img/su.png" alt="search">
+					</button>
+				</form>
+			</div>
+
+			<div class="mark">
+
+				<a href="#"><img src="img/2.png" alt="아이디찾기아이콘"></a>
+
+				<a href="#"><img src="img/1.png" alt="상담아이콘"></a>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="logo">
+		<img src="img/logo.png" alt="로고이미지">
+	</div>
+
+
+
+
+	<nav>
+		<ul>
+
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">전체제품</a></li>
+			<li><a href="#">베스트셀러</a></li>
+			<li><a href="#">신제품</a></li>
+			<li><a href="#">캠핑용품</a></li>
+			<li><a href="#">주방용품</a></li>
+			<li><a href="#">수납가방</a></li>
+			<li><a href="#">악세사리</a></li>
+			<li><a href="#">이벤트특가</a></li>
+
+		</ul>
+
+
+	</nav>
+
+</header>
+
+
+<!--sub-->
+
+<div id="sub">
+
+
+	<div id="submenu">
+
+		<ul>
+
+			<li> <a href="#">베스트셀러</a></li>
+
+			<li> <a href="#">홈 ></a></li>
+
+		</ul>
+
+	</div>
+
+
+
+	<div id="bestbest">
+
+		<div id="bestimg">
+			<a href="#"><img src="img/sang1.jpg" alt="상품이미지"></a>
+			<div class="bestimg">
+
+			</div>
+		</div>
+
+
+
+		<div class="after">
+
+			<div class="notbad1"><a href="#"><img src="img/sang1.jpg" alt="이미지1"></a></div>
+			<div class="notbad1"><a href="#"><img src="img/sang2.jpg" alt="이미지2"></a></div>
+			<div class="notbad1"><a href="#"><img src="img/sang3.jpg" alt="이미지3"></a></div>
+			<div class="notbad1"><a href="#"><img src="img/sang4.jpg" alt="이미지4"></a></div>   
+		</div>
+
+
+
+
+
+		<div id="top">
+			<div id="besttext1">
+
+
+				<h3>800도씨 캠핑 화로대 그릴 접이식 불멍</h3>
+
+				<hr>
+
+				<h5>전용 가방 사은품으로 증정 이벤트</h5>
+
+
+
+				<table class="table1">
+
+					<tr>
+						<td>소비자가</td>
+						<td>173,000원</td>
+					</tr>
+
+
+
+					<tr>
+						<td>판매가</td>
+						<td>137,000원</td>
+					</tr>
+				</table>
+
+
+
+
+				<p>
+					100%로 국내 원자재 및 제작한 접이식 캠핑 화로대로 국내제작으로 A/S 가능하며, 간단한 설치 와 접이식으로 보다 편리하게 사용 가능하십니다.<br> 
+					또한 가방을 이용해 이동시에도 간편하게!
+				</p>
+
+
+
+				<table class="table1">
+					<tr>
+
+						<td>> 선택</td>
+
+						<td>
+
+							<select name="select" id="select" >
+
+								<option>-[필수]옵션을 선택해 주세요</option>
+
+								<option>캠핑 화로대 플러스 본품+가방</option>
+
+								<option>캠핑 화로대 플러스 전용오덕 (-112,000원)</option>
+
+								<option>캠핑 화로대 플러스 전용 다리세트 (-49,000원)</option>
+
+							</select>
+						</td>
+					</tr>
+				</table>
+
+				<p>
+					최소주문수량 1개 이상<br>
+					<button class="bt1">추가구성상품 추가구매를 원하시면 선택하세요 ▼</button>
+				</p>
+
+				<span>TOTAL: 137,000원(1개)</span>	
+
+				<div id="button">
+
+					<button>바로 구매</button>
+					<button>장바구니 담기</button>
+					<button>관심상품</button>
+					<button><img src="img/kakao2.png" alt="카카오톡이미지"> 카카오톡 상담 @ 800도씨</button>
+
+				</div>
+
+
+				<div id="naver">
+
+					<div id="bu"><img src="img/naver1.jpg" alt="네이버페이이미지"></div>
+					<button id="bu1"><img src="img/naver.jpg"></button>
+					<button id="bu2">찜</button>
+
+				</div>
+
+
+				<div class="guest">
+					<div class="snsbox">
+						<p>SNS LINK</p>
+						<a href="#"><img src="img/fe2.png" alt="페이스북"></a>
+						<a href="#"><img src="img/tw2.png" alt="트위터"></a>
+					</div>
+					<div class="review">
+						<button>REVIEW</button> <button>Q&A</button>
+						<button><img src="mail.png" alt="우편이미지"></button>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+<!--footer-->
+
+
+
+<footer>
+
+	<div class="box">
+
+		<div class="rol">
+
+			<ul>
+				<li><a href="#">회사소개</a></li>
+				<li>|</li>
+				<li><a href="#">이용약관</a></li>
+				<li>|</li>
+				<li><a href="#"><b>개인정보처리방침</b></a></li>
+				<li>|</li>
+				<li><a href="#">이용안내</a></li>
+				<li>|</li>
+				<li><a href="#">제휴문의</a></li>
+			</ul>
+		</div>
+
+		<div class="sns2">
+
+			<a href="#"><img src="img/fe.png" alt="페이스북아이콘"></a>
+
+			<a href="#"><img src="img/in.png" alt="인스타아이콘"></a>
+
+			<a href="#"><img src="img/ca.png" alt="공식카페아이콘"></a>
+
+			<a href="#"><img src="img/tw.png" alt="트위터아이콘"></a>
+
+			<a href="#"><img src="img/uv.png" alt="유튜브아이콘"></a>
+
+		</div>
+
+		<div class="center">
+			<h3>CUSTOMER CENTER</h3>
+
+			<h2><img src="img/mic.png" alt="마이크이미지"> 032-710-8785</h2>
+
+			<p>
+				평일 오전 10:00 ~ 오후 5:00<br> 
+				점심시간 오후 12:00 ~ 오후 2:00<br> 
+				토 / 일 / 공휴일 휴무<br>
+			</p>
+		</div>
+
+		<div class="info">
+
+			<h3>ACCOUNT INFO</h3>
+			<p>농협 355-0071-9883-63 <br> 디자인앤라이프스토리</p>
+
+			<select class="bank">
+
+				<option value="인터넷뱅킹">인터넷뱅킹 바로가기</option>
+
+				<option value="농협">농협</option>
+
+				<option value="기업은행">기업은행</option>
+
+				<option value="카카오뱅크">카카오뱅크</option>
+
+				<option value="기업은행">국민은행</option>
+
+				<option value="카카오뱅크">농협</option>
+
+				<option value="기업은행">수협</option>
+
+				<option value="카카오뱅크">축협</option>
+
+			</select>
+
+
+
+
+		</div>
+
+		<div class="menu">
+			<h3>FAVORITE MENU</h3>
+			<ul>
+				<li><a href="#"> 로그인/</a> </li>
+				<li><a href="#">회원가입 </a></li>
+				<li><a href="#"> 관심상품 </a></li>
+				<li><a href="#">  장바구니 </a></li>
+				<li><a href="#">  주문조회 </a></li>
+				<li><a href="#"> 마이페이지 </a></li>
+			</ul>
+		</div>
+		<div class="return">
+			<h3>RETURN / EXCHANGE</h3>
+			<p>인천광역시 서구 북항로245번길 13-22, 800도씨<br>자세한 교환·반품절차 안내는<br>문의란 및 공지사항을 참고해주세요.</p>
+		</div>
+		<div class="last">
+			<p> 상호 : 800도씨 대표 : 전임주 사업자 등록번호 : 268-81-02258 [사업자정보확인] <br>
+				주소 : 14449 경기도 부천시 석천로 397 (삼정동) 부천테크노파크쌍용3차 301동 103-1호 대표전화 : 032-710-7874 <br>
+				통신판매업 신고 : 제2020-경기부천-3831호 개인정보관리책임자 : 유기현 (kiki@800c.co.kr) 이메일 : official@800c.co.kr <br><br>
+				COPYRIGHT © <b>800도씨</b> ALL RIGHTS RESERVED. HOSTING CAFE24DESIGNED By DFLOOR </br></p>
+			</div>
+
+
+
+		</footer>
+
+
+	</body>
+	</html>
